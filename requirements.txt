@@ -1,0 +1,8 @@
+langchain
+streamlit
+altair==4.2.2
+langchain-community
+playwright
+html2text
+python-dotenv
+openai==0.28
