@@ -12,10 +12,9 @@ from langchain.prompts.chat import (ChatPromptTemplate,
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 
-# Load environment variables from .env file (Optional)
-# load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "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"
+
+os.environ["OPENAI_API_KEY"] = ""
 
 system_template = """Use the following pieces of context to answer the users question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
